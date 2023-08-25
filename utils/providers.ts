@@ -11,10 +11,10 @@ export enum StargateBlockchainType {
 }
 export const BlockchainToChainId = {
     [StargateBlockchainType.Ethereum]: 10121,
-    [StargateBlockchainType.BnbChain]: 102,
+    [StargateBlockchainType.BnbChain]: 10102,
     [StargateBlockchainType.Avalanche]: 106,
     [StargateBlockchainType.Polygon]: 109,
-    [StargateBlockchainType.Arbitrum]: 110,
+    [StargateBlockchainType.Arbitrum]: 10143,
     [StargateBlockchainType.Optimism]: 10132,
     [StargateBlockchainType.Fantom]: 112,
 }
@@ -24,7 +24,7 @@ export const BlockchainToChainId = {
  */
 export const BlockchainToRouterAddress = {
     [StargateBlockchainType.Ethereum]: '0x7612aE2a34E5A363E137De748801FB4c86499152',
-    [StargateBlockchainType.BnbChain]: '0x4a364f8c717cAAD9A442737Eb7b8A55cc6cf18D8',
+    [StargateBlockchainType.BnbChain]: '0xbB0f1be1E9CE9cB27EA5b0c3a85B7cc3381d8176',
     [StargateBlockchainType.Avalanche]: '0x45A01E4e04F14f7A4a6702c74187c5F6222033cd',
     [StargateBlockchainType.Polygon]: '0x45A01E4e04F14f7A4a6702c74187c5F6222033cd',
     [StargateBlockchainType.Arbitrum]: '0x53Bf833A5d6c4ddA888F69c22C88C9f356a41614',
@@ -37,7 +37,7 @@ export const BlockchainToRouterAddress = {
  */
 export const BlockchainToRpcProvider = {
     [StargateBlockchainType.Ethereum]: 'https://rpc.ankr.com/eth_goerli',
-    [StargateBlockchainType.BnbChain]: 'https://bsc-dataseed.binance.org',
+    [StargateBlockchainType.BnbChain]: 'https://data-seed-prebsc-1-s2.bnbchain.org:8545',
     [StargateBlockchainType.Avalanche]: 'https://avalanche.public-rpc.com',
     [StargateBlockchainType.Polygon]: 'https://polygon-rpc.com/',
     [StargateBlockchainType.Arbitrum]: 'https://arbitrum-one.public.blastapi.io',
@@ -47,7 +47,7 @@ export const BlockchainToRpcProvider = {
 
 export const BlockchainToScannerUrl = {
     [StargateBlockchainType.Ethereum]: 'https://goerli.etherscan.io',
-    [StargateBlockchainType.BnbChain]: 'https://bscscan.com',
+    [StargateBlockchainType.BnbChain]: 'https://testnet.bscscan.com/',
     [StargateBlockchainType.Avalanche]: 'https://avascan.info',
     [StargateBlockchainType.Polygon]: 'https://polygonscan.com',
     [StargateBlockchainType.Arbitrum]: 'https://arbiscan.io',
