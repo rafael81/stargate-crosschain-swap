@@ -94,7 +94,7 @@ async function main() {
         "0x",
         {
             value: feeWei,
-            gasLimit: 600000,
+            gasLimit: 2000000,
             gasPrice: providerFeeData.gasPrice,
             nonce: await providers[fromNetwork].getTransactionCount(signer.address)
         }

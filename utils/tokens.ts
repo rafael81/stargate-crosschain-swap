@@ -5,16 +5,16 @@ export enum TokenType {
 }
 
 export const BlockchainToToken: any = {
-    [StargateBlockchainType.Fantom]: {
+    [StargateBlockchainType.Ethereum]: {
         [TokenType.USDC]: {
-            address: '0x04068da6c83afcfa0e13ba15a6696662335d5b75',
+           address: '0xDf0360Ad8C5ccf25095Aa97ee5F2785c8d848620',
             poolId: 1,
             decimals: 6
         }
     },
-    [StargateBlockchainType.Polygon]: {
+    [StargateBlockchainType.Optimism]: {
         [TokenType.USDC]: {
-            address: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
+            address: '0x0CEDBAF2D0bFF895C861c5422544090EEdC653Bf',
             poolId: 1,
             decimals: 6
         }
@@ -27,3 +27,4 @@ export const BlockchainToToken: any = {
         }
     }
 };
+         
